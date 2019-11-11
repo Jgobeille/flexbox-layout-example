@@ -3,3 +3,25 @@
 ==================================== */
 
 
+.container {
+  /* Creates flex box container */
+  display: flex;
+  /* Specifies what direction the content will layout. Horizontally or Vertically */
+  flex-direction: row;
+  /* allows content to break on to new line */
+  flex-wrap: wrap;
+  /* gives space evenly between all the content on the page, even the elements at the end. */
+  justify-content: space-around;
+}
+
+
+
+
+/* ordering lesson */
+/* .item-5 {
+  order: -1;
+}
+
+.item-1 {
+  order: -2
+} */
