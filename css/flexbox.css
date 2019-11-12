@@ -5,13 +5,15 @@
 
 .container {
   /* Creates flex box container */
-  display: flex;
+  /* display: flex; */
   /* Specifies what direction the content will layout. Horizontally or Vertically */
-  flex-direction: row;
+  /* flex-direction: row; */
   /* allows content to break on to new line */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* gives space evenly between all the content on the page, even the elements at the end. */
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  /* height: 450px; */
+  /* align-items: center; */
 }
 
 
@@ -24,4 +26,70 @@
 
 .item-1 {
   order: -2
+} */
+
+
+
+/* flex grow lesson */
+
+/* .item {
+  flex-grow: 1;
+} */
+
+/* 
+.item-3 {
+  flex-grow: 3;
+} */
+
+/* .item-1 {
+  flex-grow: 4;
+} */
+
+/* flex-basis and flex lesson */
+
+/* .item {
+  flex: 1 200px;
+}
+
+.item-2 {
+  flex-grow: 2;
+} */
+
+/* Align flex items on cross section lesson */
+
+/* .item-1 {
+  align-self: flex-start;
+} */
+
+/* ================================= 
+  Flexbox Vertical and Horizontal Centering Lesson
+==================================== */
+
+.container {
+  display: flex;
+  min-height: 50vh;
+}
+
+/* 3 different ways to center content */
+
+/* Method 1 */
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Method 2 */
+
+/* .container {
+  justify-content: center;
+}
+
+.item {
+  align-self: center;
+} */
+
+/* Method 3 */
+
+/* .item  {
+  margin: auto;
 } */
